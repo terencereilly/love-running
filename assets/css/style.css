@@ -41,6 +41,7 @@ body {
     padding: 20px; */
 }
 
+/* Styling the Logo Text  */
 h1 {
     font-family: "Audiowide";
     font-weight: 400;
@@ -50,12 +51,23 @@ h1 {
     color: navy;
 }
 
+/* Removes list bullet points and styles the nav menu */
 #menu {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 10px;
     margin-top: 20px;
 } 
+
+/* Creates space between the nav menu items */
+#menu > li {
+    margin-bottom: 1em;
+}
+
+/* Let's people know what page they are currently on */
+.active {
+    border-bottom: 1px solid yellowgreen;   
+}
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Header Content Styles */
