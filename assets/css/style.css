@@ -6,6 +6,23 @@
 }
 
 
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic Project Styles  */
+    color: #3a3a3a
+    /* font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px; */
+}
+
+
+
+
 
 /* Header */
 header {
@@ -15,6 +32,8 @@ background-color: blue;
 /* Main */
 main {
 background-color: red;
+/* Make main element take up any surplus space to push footer down  */
+flex: 1 0 auto;
 }
 
 /* Footer */
