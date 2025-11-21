@@ -47,7 +47,13 @@ body {
 
 /* Header */
 header {
-background-color: yellow;
+background-color: whitesmoke;
+/* In video these vales were set to padding: 0 1rem; */
+padding: 1rem 1.5rem; 
+position: fixed;
+z-index: 99;
+width: 100%;
+box-shadow: 0 1px 4px #3a3a3a;
 }
 
 /* Main */
@@ -59,7 +65,7 @@ flex: 1 0 auto;
 
 /* Footer */
 footer {
-background-color: pink;
+background-color: yellow;
 }
 
 
