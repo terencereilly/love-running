@@ -26,7 +26,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project Styles  */
-    color: #3a3a3a
+    color: #3a3a3a;
+    font-family: 'Audiowide', sans-serif;
     /* font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
