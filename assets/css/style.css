@@ -4,13 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap');
 
 .audiowide-regular {
-  font-family: "Audiowide", sans-serif;
+  font-family: "Audiowide";
   font-weight: 400;
   font-style: normal;
 }
 
 .orbitron-regular {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Orbitron";
   font-weight: 400;
   font-style: normal;
 }
@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     /* Generic Project Styles  */
     color: lightgray;
-    font-family: 'Audiowide', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     /* font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -41,11 +41,18 @@ body {
     padding: 20px; */
 }
 
-/* //////////////////////////////////////////////////////////////////////////// */
-/* Main Content Styles */
-/* //////////////////////////////////////////////////////////////////////////// */
+h1 {
+    font-family: "Audiowide";
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: navy;
+}
 
-/* Header */
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Header Content Styles */
+/* //////////////////////////////////////////////////////////////////////////// */
 header {
 background-color: whitesmoke;
 /* In video these vales were set to padding: 0 1rem; */
@@ -56,7 +63,14 @@ width: 100%;
 box-shadow: 0 1px 4px #3a3a3a;
 }
 
-/* Main */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Main Content Styles */
+/* //////////////////////////////////////////////////////////////////////////// */
 main {
 background-color: red;
 /* Make main element take up any surplus space to push footer down  */
