@@ -141,4 +141,49 @@ footer {
 background-color: yellow;
 }
 
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Media Queries: Tablets & Larger (768px and up ) */
+/* //////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 768px) {
+    /* Navbar styles for larger screens  */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        background-color: transparent;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    /* Style the nav menu for larger screens  */
+    #menu {
+        display: flex;
+    }
+
+    /* Remove bottom margin from nav menu items for larger screens  */
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+#logo { 
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem    ;
+    }
+
+    /* Main Content */
+    main { 
+        margin-top: 180px;
+    }
+
+    
+}
+
+
+
+
 
