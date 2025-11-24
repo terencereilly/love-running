@@ -85,12 +85,22 @@ nav {
 
 /* Nav Toggle  */
 #nav-toggle {
-    display: none;
+    display: none; 
 } 
 
 /* Nav Toggle  */
 #nav-toggle:checked~nav {
     display: block;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    /* cursor: pointer;
+    user-select: none;
+    color: navy;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem; */
 }
 
 
