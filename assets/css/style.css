@@ -133,6 +133,7 @@ main {
 background-color: red;
 /* Make main element take up any surplus space to push footer down  */
 flex: 1 0 auto;
+margin-top: 115px;
 }
 
 /* Footer */
