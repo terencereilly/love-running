@@ -138,7 +138,29 @@ margin-top: 115px;
 
 /* Footer */
 footer {
-background-color: yellow;
+
+      #social-networks {
+        text-align: center;
+       padding: 20p 0%;
+       display: flex;
+       justify-content: space-evenly;
+       list-style-type: none;
+    }
+
+    #social-networks i {
+        font-size: 160%;
+        padding: 10%;
+        color: #3a3a3a;
+    }
+
+    /* #social-networks {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: yellow;
+    } */
+
 }
 
 /* //////////////////////////////////////////////////////////////////////////// */
