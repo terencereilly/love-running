@@ -41,15 +41,27 @@ body {
     padding: 20px; */
 }
 
+
+
+
+
+
 /* Styling the Logo Text  */
-h1 {
+h1, h2, h3 {
     font-family: "Audiowide";
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    color: navy;
+    letter-spacing: 5px;  
 }
+
+
+
+
+
+
+
+
 
 /* Removes list bullet points and styles the nav menu */
 #menu {
@@ -144,7 +156,31 @@ margin-top: 115px;
     width: 100%;
     background-color: lightgreen;
     background: url( ../images/hero-image.webp ) no-repeat center center/cover;
+    position: relative;
 }
+
+
+/* For Text overlay on hero image  */
+#cover-text {
+    background-color: rgba(241, 109, 107, 0.7);
+    font-size: 130%;
+    font-family: "Orbitron";
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+    text-shadow: 1px 1px 10px #000000;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+
+
+
+
 
 /* Mobile adjustment for hero spacing */
 @media screen and (max-width: 768px) {
@@ -153,9 +189,11 @@ margin-top: 115px;
     }
 
     #hero {
-        height: 50vh;
+        height: 50vh; 
     }
 }
+
+
 
 
 
