@@ -130,7 +130,7 @@ header a {
 /* Main Content Styles */
 /* //////////////////////////////////////////////////////////////////////////// */
 main {
-background-color: red;
+/* background-color: red; */
 /* Make main element take up any surplus space to push footer down  */
 flex: 1 0 auto;
 margin-top: 115px;
@@ -138,10 +138,21 @@ margin-top: 115px;
 
 /* Hero Section - Styles  */
  #hero {   
-    height: 700px;
+    height: 110vh;  /* - Different from lecturer */
     width: 100%;
     background-color: lightgreen;
-    background:  url( ../images/hero-image.webp ) no-repeat center center/cover;
+    background: url( ../images/hero-image.webp ) no-repeat center center/cover;
+}
+
+/* Mobile adjustment for hero spacing */
+@media screen and (max-width: 768px) {
+    main {
+        margin-top: 60px;
+    }
+
+    #hero {
+        height: 50vh;
+    }
 }
 
 
@@ -155,8 +166,8 @@ margin-top: 115px;
 footer {
 
       #social-networks {
-        text-align: center;
-       padding: 20p 0%;
+       text-align: center;
+       padding: 0% 0%;
        display: flex;
        justify-content: space-evenly;
        list-style-type: none;
@@ -175,12 +186,7 @@ footer {
         gap: 1.5rem;
         background-color: yellow;
     } */
-
 }
-
-
-
-
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Media Queries: Tablets & Larger (768px and up ) */
@@ -218,7 +224,7 @@ footer {
 
     /* Main Content */
     main { 
-        margin-top: 180px;
+        margin-top: 160px;
     }
 
  #hero {   
@@ -248,12 +254,12 @@ footer {
 /* //////////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 992px) {
     #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 20px solid #3a3a3a;
     }
 
     /* Main Content */
     main { 
-        margin-top: 105px;
+        margin-top: 50px;
     }
 
 }
