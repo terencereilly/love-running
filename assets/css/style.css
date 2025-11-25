@@ -41,11 +41,6 @@ body {
     padding: 20px; */
 }
 
-
-
-
-
-
 /* Styling the Logo Text  */
 h1, h2, h3 {
     font-family: "Audiowide";
@@ -54,14 +49,6 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 5px;  
 }
-
-
-
-
-
-
-
-
 
 /* Removes list bullet points and styles the nav menu */
 #menu {
@@ -145,7 +132,8 @@ main {
 /* background-color: red; */
 /* Make main element take up any surplus space to push footer down  */
 flex: 1 0 auto;
-margin-top: 115px;
+margin-top: 79px;
+
 }
 
 /* // */
@@ -177,21 +165,10 @@ margin-top: 115px;
     padding-left: 10px;
 }
 
-
-
-
-
-
-/* Mobile adjustment for hero spacing */
-@media screen and (max-width: 768px) {
-    main {
-        margin-top: 60px;
-    }
-
-    #hero {
-        height: 50vh; 
-    }
+#cover-text > h2, #cover-text > h3 {
+   color: #ffffff;
 }
+
 
 
 
@@ -228,10 +205,40 @@ footer {
     } */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile adjustment for hero spacing */
+@media screen and (max-width: 768px) {
+    main {
+        margin-top: 60px;
+    }
+
+    #hero {
+        height: 50vh; 
+    }
+}
+
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Media Queries: Tablets & Larger (768px and up ) */
 /* //////////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 768px) {
+
     /* Navbar styles for larger screens  */
     nav {
         display: block;
@@ -248,7 +255,7 @@ footer {
     }
 
     /* Remove bottom margin from nav menu items for larger screens  */
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -256,24 +263,30 @@ footer {
         display: none;
     }
 
-#logo { 
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem    ;
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+         margin: 0 0.5rem;
     }
 
     /* Main Content */
-    main { 
-        margin-top: 160px;
+    main {
+        margin-top: 79px;
     }
 
- #hero {   
-    height: 90vh;  /* - Different from lecturer */
-    background:  url( ../images/hero-image.webp ) no-repeat center center/cover;
-}
-}
+    /* hero */
+    #cover-text {
+        left: 300px;
+        right: 50px;
+    }
 
+    #hero {
+        height: 90vh;
+        /* - Different from lecturer */
+        background: url(../images/hero-image.webp ) no-repeat center center/cover;
+    }
 
+}
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* /* Hero Section - Mobile Styles | Media Queries: Mobile phones & (768px and up ) */
@@ -286,8 +299,6 @@ footer {
     background:  url( ../images/hero-image.webp ) no-repeat center center/cover;
 }
 }
-
-
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Media Queries: Desktop & Larger screens (992px and up ) */
