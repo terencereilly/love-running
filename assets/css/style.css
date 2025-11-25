@@ -220,6 +220,24 @@ hr {
     margin: 10px 0;
 }
 
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat center center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
 
 
 
@@ -394,3 +412,13 @@ footer {
     border: 2px dashed red;
     min-height: 50px;
 } */
+
+
+
+
+
+
+
+
+
+
