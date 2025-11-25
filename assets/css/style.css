@@ -136,7 +136,22 @@ flex: 1 0 auto;
 margin-top: 115px;
 }
 
-/* Footer */
+/* Hero Section - Styles  */
+ #hero {   
+    height: 700px;
+    width: 100%;
+    background-color: lightgreen;
+    background:  url( ../images/hero-image.webp ) no-repeat center center/cover;
+}
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* /* Footer - Styles */
+/* //////////////////////////////////////////////////////////////////////////// */
 footer {
 
       #social-networks {
@@ -162,6 +177,10 @@ footer {
     } */
 
 }
+
+
+
+
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Media Queries: Tablets & Larger (768px and up ) */
@@ -201,6 +220,25 @@ footer {
     main { 
         margin-top: 180px;
     }
+
+ #hero {   
+    height: 90vh;  /* - Different from lecturer */
+    background:  url( ../images/hero-image.webp ) no-repeat center center/cover;
+}
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* /* Hero Section - Mobile Styles | Media Queries: Mobile phones & (768px and up ) */
+/* //////////////////////////////////////////////////////////////////////////// */
+
+/* - Different from lecturer */
+@media screen and (max-width: 768px) { 
+ #hero {   
+    height: 85vh;
+    background:  url( ../images/hero-image.webp ) no-repeat center center/cover;
+}
 }
 
 
