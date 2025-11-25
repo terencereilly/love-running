@@ -47,13 +47,27 @@ body {
     padding: 20px; */
 }
 
+
+h2 {
+    font-size: 280%;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 20px;  
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 /* Styling the Logo Text  */
 h1, h2, h3 {
     font-family: "Audiowide";
     font-weight: 400;
-    font-style: normal;
     text-transform: uppercase;
     letter-spacing: 5px;  
+    font-color: black;
 }
 
 /* Removes list bullet points and styles the nav menu */
@@ -177,8 +191,34 @@ margin-top: 79px;
 
 
 
+/* For Why love running with us Text - Styles */
+#reasons {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    margin: 20px;
+}
 
+#benefits-physical, #benefits-mental > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
 
+#benefits > p {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-top: 10px;
+    line-height: 1.5; */
+}
+
+hr {
+    border: 1px;
+    height: 1px;
+    background-color: rgba(93, 247, 3, 0.8);
+    margin: 10px 0;
+}
 
 
 
@@ -330,12 +370,12 @@ footer {
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Temporary debugging - shows all elements */
 /* //////////////////////////////////////////////////////////////////////////// */
-* {
+/* * {
     border: 1px solid rgba(93, 247, 3, 0.2);
-}
+} */
 
 /* Temporary debugging */
-section#reasons {
+/* section#reasons {
     border: 3px solid blue;
     background-color: rgba(0, 0, 255, 0.1);
 }
@@ -353,4 +393,4 @@ section#reasons {
 #benefits > div:empty {
     border: 2px dashed red;
     min-height: 50px;
-}
+} */
