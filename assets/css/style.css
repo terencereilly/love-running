@@ -274,7 +274,6 @@ hr {
     /* Each div will expand to fill the available space on its row when there is any */
     flex-basis: 400px;
     flex-grow: 1;
-
     /* creates a grid of meetup times over the background image */
     border: 2px solid #fafafa;
 }
@@ -284,6 +283,26 @@ hr {
 }
 
 
+
+/* Gallery Page  */
+
+#photos img {
+    width: 100%;
+    line-height: 1em; 
+    /* height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease; */
+}
+
+#photos {
+    line-height: 0;
+}
+
+
+/* #gallery {
+    display: flex;
+} */
 
 
 
