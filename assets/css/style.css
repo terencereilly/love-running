@@ -350,7 +350,49 @@ footer {
         background: url(../images/hero-image.webp ) no-repeat center center/cover;
     }
 
+
+
+
+
+
+
+
+
+/* Reasons section  */
+#benefits-physical, #benefits-mental {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
 }
+
+
+/* divs in reason section  */
+#benefits-physical > div,
+#benefits-mental > div {
+    width: 75%;
+}
+
+
+/* divs in reason section  */
+#benefits-mental > div {
+    text-align: end;
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* /* Hero Section - Mobile Styles | Media Queries: Mobile phones & (768px and up ) */
@@ -388,9 +430,9 @@ footer {
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Temporary debugging - shows all elements */
 /* //////////////////////////////////////////////////////////////////////////// */
-/* * {
-    border: 1px solid rgba(93, 247, 3, 0.2);
-} */
+* {
+    border: 1px solid rgba(234, 149, 12, 0.5);
+}
 
 /* Temporary debugging */
 /* section#reasons {
