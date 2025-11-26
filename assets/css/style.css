@@ -300,10 +300,6 @@ hr {
 }
 
 
-/* #gallery {
-    display: flex;
-} */
-
 
 
 
@@ -350,17 +346,21 @@ footer {
 
 
 
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Media Queries: small devices & landscape phones (576px and up ) */
+/* //////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+} 
 
 
 
-
-
-
-
-
-
-
+/* //////////////////////////////////////////////////////////////////////////// */
 /* Mobile adjustment for hero spacing */
+/* //////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 768px) {
     main {
         margin-top: 60px;
@@ -423,14 +423,6 @@ footer {
         background: url(../images/hero-image.webp ) no-repeat center center/cover;
     }
 
-
-
-
-
-
-
-
-
 /* Reasons section  */
 #benefits-physical, #benefits-mental {
     display: flex; 
@@ -454,18 +446,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* /* Hero Section - Mobile Styles | Media Queries: Mobile phones & (768px and up ) */
@@ -477,6 +458,10 @@ footer {
     height: 85vh;
     background:  url( ../images/hero-image.webp ) no-repeat center center/cover;
 }
+
+
+
+
 }
 
 /* //////////////////////////////////////////////////////////////////////////// */
@@ -491,6 +476,17 @@ footer {
     main { 
         margin-top: 50px;
     }
+
+/* Gallery */
+#photos {
+    column-count: 3;
+    column-gap: 0;
+}
+
+
+
+
+
 
 }
 
@@ -524,6 +520,12 @@ footer {
     #benefits-physical > div {
        align-self: flex-end;
     }
+
+    /* Gallery */
+#photos {
+    column-count: 4;
+    column-gap: 0;
+}
     
 }
 
