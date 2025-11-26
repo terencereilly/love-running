@@ -260,8 +260,13 @@ hr {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     text-align: center;
-    flex-basis: 200px;
+    /* This will not wrap on screens of less that 400px wide */
+    /* Each div will expand to fill the available space on its row when there is any */
+    flex-basis: 400px;
     flex-grow: 1;
+    
+    /* creates a grid of meetup times over the background image */
+    border: 2px solid #fafafa;
 }
 
 #times h3 {
