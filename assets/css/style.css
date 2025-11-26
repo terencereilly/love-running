@@ -241,6 +241,45 @@ hr {
 
 
 
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center / cover;
+    
+    display: flex;
+       flex-wrap: wrap;
+ 
+    /* height: 80vw;
+    width: 100vw;
+    margin: auto auto 20px auto; */
+    /* border-radius: 50%; */
+    /* max-width: 300px;
+    max-height: 300px; */
+}
+
+#times > div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#times h3 {
+    color: #fafafa;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* //////////////////////////////////////////////////////////////////////////// */
 /* /* Footer - Styles */
 /* //////////////////////////////////////////////////////////////////////////// */
