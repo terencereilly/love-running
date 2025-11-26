@@ -70,6 +70,16 @@ h1, h2, h3 {
     font-color: black;
 }
 
+
+
+/* hide elements on webpage but keep for SEO resaons */
+.hidden-heading {
+   display: none;
+}
+
+
+
+
 /* Removes list bullet points and styles the nav menu */
 #menu {
     font-size: 110%;
@@ -264,7 +274,7 @@ hr {
     /* Each div will expand to fill the available space on its row when there is any */
     flex-basis: 400px;
     flex-grow: 1;
-    
+
     /* creates a grid of meetup times over the background image */
     border: 2px solid #fafafa;
 }
